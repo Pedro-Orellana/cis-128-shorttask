@@ -16,44 +16,49 @@
         </div>
     </section>
 
-    <p class="text-xl mx-8 text-center mt-10 md:mx-0 md:text-2xl">To understand these technologies and be able to make the right decision, let us explain each one of these options in detail:</p>
+    <p class="text-lg mx-8 text-center my-10 md:mx-0 md:text-2xl">To understand these technologies and be able to make the right decision, let us explain each one of these options in detail:</p>
 
 
     <section>
 
-        <!-- React Native -->
-        <div class="max-w-6xl mx-auto bg-emerald-200 p-4 rounded-t-xl shadow-xl">
-            <div class="flex flex-col md:flex-row">
-                <h2 class="text-xl underline font-bold">React Native</h2>
-                <img src="./public/react-native-logo.png" alt="react native logo" class="w-25 h-25 object-fill">
-            </div>
-        
-            <p class="text-lg">React Native allows developers who know React to create native apps. At the same time, native developers can use React Native to gain parity between native platforms by writing common features once.</p>
-            <p class="text-lg">React Native is an open-source JavaScript framework introduced by Meta. It’s based on React, the same programming language library focused on building websites.</p>
-            <p class="text-lg">React Native enables one code to be utilized across multiple platforms, such as iOS or Android. So, instead of spending resources on writing separate, native codes, why not consider relying on a universal JavaScript one?</p>
 
+        <!-- React Native -->
+        <div class="max-w-6xl mx-4 bg-sky-200 p-6 rounded-t-xl shadow-xl md:mx-auto">
+            <div class="flex flex-col items-center justify-center">
+                <img src="./public/react-native-logo.png" alt="react native logo" class="w-25 h-25 object-fill">
+                <h2 class="text-xl underline font-bold my-4">React Native</h2>
+                
+            </div>
+            <div class="space-y-2">
+            <p class="">React Native allows developers who know React to create native apps. At the same time, native developers can use React Native to gain parity between native platforms by writing common features once.</p>
+            <p class="">React Native is an open-source JavaScript framework introduced by Meta. It’s based on React, the same programming language library focused on building websites.</p>
+            <p class="">React Native enables one code to be utilized across multiple platforms, such as iOS or Android. So, instead of spending resources on writing separate, native codes, why not consider relying on a universal JavaScript one?</p>
+            <p>One thing to be extra cautious with this framework is to undestand how state is managed. A simple error could trigger app refreshes ineficiently, making the app suffer in performance.</p>
+            <p class="">This technology can prove to be very useful for developers already familiar with ReactJS, since the shared knowledge will allow for fast prototyping and developing.</p>
+            </div>
+    
               <!-- divider -->
-             <div class="border border-t mx-10 mt-4"></div>
+             <div class="border border-t mx-6 mt-10"></div>
          </div>
 
-         <div class=" max-w-6xl mx-auto flex bg-emerald-200 rounded-b-xl shadow-xl p-4 ">
+         <div class="flex flex-col max-w-6xl mx-4 bg-sky-200 rounded-b-xl shadow-xl p-4 md:mx-auto md:flex-row ">
 
-             <div class="flex flex-col w-1/2">
+             <div class="flex flex-col w-full md:w-1/2">
                 <p class="w-full text-center">PROS</p>
-                <ul class="text-start w-1/2 mx-auto">
-                    <li>Fast prototyping</li>
-                    <li>Fast to learn</li>
-                    <li>Simpliefied UI</li>
-                    <li>Large community</li>
+                <ul class="text-start w-2/3 mx-auto md:w-2/3">
+                    <li><img src="./public/pro-icon.svg" alt="check icon" class="inline"> Fast prototyping</li>
+                    <li class="w-full"> <img src="./public/pro-icon.svg" alt="check icon" class="inline"> Fast to learn</li>
+                    <li> <img src="./public/pro-icon.svg" alt="check icon" class="inline"> Simpliefied UI</li>
+                    <li> <img src="./public/pro-icon.svg" alt="check icon" class="inline"> Large community</li>
                 </ul>
             </div>
 
-            <div class="flex flex-col w-1/2">
+            <div class="flex flex-col md:w-1/2">
                 <p class="w-full text-center">CONS</p>
-                 <ul class="text-start w-1/2 mx-auto">
-                    <li>Compatibility and dubugging issues</li>
-                    <li>Native code still needed</li>
-                    <li>Extra focus on performance</li>
+                 <ul class="text-start w-4/5 mx-auto md:w-2/3">
+                    <li> <img src="./public/con-icon.svg" alt="check icon" class="inline"> Compatibility and dubugging issues</li>
+                    <li> <img src="./public/con-icon.svg" alt="check icon" class="inline"> Native code still needed</li>
+                    <li><img src="./public/con-icon.svg" alt="check icon" class="inline"> Extra focus on performance</li>
                 </ul>
             </div>
          </div>
@@ -62,38 +67,40 @@
 
 
          <!-- Flutter -->
-          <div class="max-w-6xl mx-auto bg-emerald-200 p-4 rounded-t-xl shadow-xl">
-            <div class="flex flex-col md:flex-row">
-                <h2 class="text-xl underline font-bold">Flutter</h2>
+          <div class="max-w-6xl mx-4 bg-emerald-200 p-6 rounded-t-xl shadow-xl md:mx-auto">
+            <div class="flex flex-col items-center justify-center">
                 <img src="./public/flutter-logo.png" alt="react native logo" class="w-25 h-25 object-fill">
+                <h2 class="text-xl underline font-bold my-4">Flutter</h2>
+                
             </div>
-        
-            <p class="text-lg">React Native allows developers who know React to create native apps. At the same time, native developers can use React Native to gain parity between native platforms by writing common features once.</p>
-            <p class="text-lg">React Native is an open-source JavaScript framework introduced by Meta. It’s based on React, the same programming language library focused on building websites.</p>
-            <p class="text-lg">React Native enables one code to be utilized across multiple platforms, such as iOS or Android. So, instead of spending resources on writing separate, native codes, why not consider relying on a universal JavaScript one?</p>
-
+            <div class="space-y-2">
+                <p>Flutter is an open source framework developed and supported by Google. Frontend and full-stack developers use Flutter to build an application’s user interface (UI) for multiple platforms with a single codebase.</p>
+                <p>When Flutter launched in 2018, it mainly supported mobile app development. Flutter now supports application development on six platforms: iOS, Android, the web, Windows, MacOS, and Linux.</p>
+                <p>Flutter uses the open-source programming language Dart, which was also developed by Google. Dart is optimized for building UIs, and many of Dart’s strengths are used in Flutter.</p>
+                <p>When developing for a wide range of devices, more than just the mobile platforms, Flutter is one of the best options out there, with the major drawback that in order to develop an app with this technology, a developer needs to learn a new language specific for this framework, meaning the cost of the application and the time to market (TTM) could potentially grow from this.</p>
+            </div>
               <!-- divider -->
-             <div class="border border-t mx-10 mt-4"></div>
+             <div class="border border-t mx-6 mt-10"></div>
          </div>
 
-         <div class=" max-w-6xl mx-auto flex bg-emerald-200 rounded-b-xl shadow-xl p-4 ">
+         <div class="flex flex-col max-w-6xl mx-4 bg-emerald-200 rounded-b-xl shadow-xl p-4 md:mx-auto md:flex-row ">
 
-             <div class="flex flex-col w-1/2">
+             <div class="flex flex-col md:w-1/2">
                 <p class="w-full text-center">PROS</p>
-                <ul class="text-start w-1/2 mx-auto">
-                    <li>Fast prototyping</li>
-                    <li>Fast to learn</li>
-                    <li>Simpliefied UI</li>
-                    <li>Large community</li>
+                <ul class="text-start w-2/3 mx-auto md:w-1/2">
+                    <li><img src="./public/pro-icon.svg" alt="check icon" class="inline"> Close-to-native performance</li>
+                    <li><img src="./public/pro-icon.svg" alt="check icon" class="inline"> High performance UI</li>
+                    <li><img src="./public/pro-icon.svg" alt="check icon" class="inline"> Strong backing from Google</li>
+                    <li><img src="./public/pro-icon.svg" alt="check icon" class="inline"> Growing community</li>
                 </ul>
             </div>
 
-            <div class="flex flex-col w-1/2">
+            <div class="flex flex-col md:w-1/2">
                 <p class="w-full text-center">CONS</p>
-                 <ul class="text-start w-1/2 mx-auto">
-                    <li>Compatibility and dubugging issues</li>
-                    <li>Native code still needed</li>
-                    <li>Extra focus on performance</li>
+                 <ul class="text-start w-4/5 mx-auto md:w-2/3">
+                    <li><img src="./public/con-icon.svg" alt="check icon" class="inline"> App size and native limitations</li>
+                    <li><img src="./public/con-icon.svg" alt="check icon" class="inline"> Longer learning curve</li>
+                    <li><img src="./public/con-icon.svg" alt="check icon" class="inline"> Performance trade-offs for complex apps</li>
                 </ul>
             </div>
          </div>
@@ -103,38 +110,41 @@
           
 
          <!-- Ionic -->
-          <div class="max-w-6xl mx-auto bg-emerald-200 p-4 rounded-t-xl shadow-xl">
-            <div class="flex flex-col md:flex-row">
-                <h2 class="text-xl underline font-bold">Ionic</h2>
-                <img src="./public/ionic-logo.png" alt="react native logo" class="w-25 h-25 object-fill">
+          <div class="max-w-6xl mx-4 bg-indigo-200 p-6 rounded-t-xl shadow-xl md:mx-auto">
+            <div class="flex flex-col items-center justify-center">
+                  <img src="./public/ionic-logo.png" alt="react native logo" class="w-25 h-25 object-fill">
+                <h2 class="text-xl underline font-bold my-4">Ionic</h2>
+              
             </div>
-        
-            <p class="text-lg">React Native allows developers who know React to create native apps. At the same time, native developers can use React Native to gain parity between native platforms by writing common features once.</p>
-            <p class="text-lg">React Native is an open-source JavaScript framework introduced by Meta. It’s based on React, the same programming language library focused on building websites.</p>
-            <p class="text-lg">React Native enables one code to be utilized across multiple platforms, such as iOS or Android. So, instead of spending resources on writing separate, native codes, why not consider relying on a universal JavaScript one?</p>
-
+            <div class="space-y-2">
+                <p>Created in 2013 as an open-source SDK for hybrid mobile applications, Ionic now has more than 5 million apps built using it.</p>
+                <p>Ionic uses front-end technologies like HTML, CSS, JavaScript, and Angular for application development. Using web technologies, Ionic helps to build cross-platform mobile applications with a single codebase. Basically, it allows web developers to create web pages that are run inside a device's browser instance called WebView. WebView may come as a plugin, and it’s essentially an application component that renders web pages and displays them as a native application.</p>
+                <p>Another part of Ionic responsible for accessing native functionality is based on Apache Cordova plugins. As long as Ionic uses WebView, it doesn’t have access to the device’s hardware APIs by default. Cordova provides those APIs packed as plugins to gain access to functions like a smartphone’s camera, gyroscope, or sensors.</p>
+                <p>Unlike React Native, Ionic is not based on a specific JavaScript Framework. Rather, Ionic can be paired with ReactJS, Angular, Vue (which are arguably the 3 most popular JS frameworks) or with no framework at all, making it effectively framework-agnostic, and so freeing the developer to choose the style that works best for them.</p>
+            </div>
               <!-- divider -->
-             <div class="border border-t mx-10 mt-4"></div>
+             <div class="border border-t mx-6 mt-10"></div>
          </div>
 
-         <div class=" max-w-6xl mx-auto flex bg-emerald-200 rounded-b-xl shadow-xl p-4 ">
+         <div class="flex flex-col max-w-6xl mx-4 bg-indigo-200 rounded-b-xl shadow-xl p-4 md:flex-row md:mx-auto">
 
-             <div class="flex flex-col w-1/2">
+             <div class="flex flex-col md:w-1/2">
                 <p class="w-full text-center">PROS</p>
-                <ul class="text-start w-1/2 mx-auto">
-                    <li>Fast prototyping</li>
-                    <li>Fast to learn</li>
-                    <li>Simpliefied UI</li>
-                    <li>Large community</li>
+                <ul class="text-start w-4/5 mx-auto md:w-2/3">
+                    <li><img src="./public/pro-icon.svg" alt="check icon" class="inline"> Popular technologies and ease to learn</li>
+                    <li><img src="./public/pro-icon.svg" alt="check icon" class="inline"> Testing convenience</li>
+                    <li><img src="./public/pro-icon.svg" alt="check icon" class="inline"> Concise documentation</li>
+                    <li><img src="./public/pro-icon.svg" alt="check icon" class="inline"> Extensive choice of UI elements</li>
                 </ul>
             </div>
 
-            <div class="flex flex-col w-1/2">
+            <div class="flex flex-col md:w-1/2">
                 <p class="w-full text-center">CONS</p>
                  <ul class="text-start w-1/2 mx-auto">
-                    <li>Compatibility and dubugging issues</li>
-                    <li>Native code still needed</li>
-                    <li>Extra focus on performance</li>
+                    <li><img src="./public/con-icon.svg" alt="check icon" class="inline"> Plugin-dependent system</li>
+                    <li><img src="./public/con-icon.svg" alt="check icon" class="inline"> No hot-reloading</li>
+                    <li><img src="./public/con-icon.svg" alt="check icon" class="inline"> Possible security issues</li>
+                    <li><img src="./public/con-icon.svg" alt="check icon" class="inline"> App size</li>
                 </ul>
             </div>
          </div>
@@ -144,7 +154,17 @@
     </section>
 
 
+    <section class="max-w-6xl mx-auto border rounded-xl shadow-xl px-4 py-10 space-y-2">
 
+        <h3>Summary:</h3>
+        <p>Hybrid development technologies are a very convenient way to produce a cross-platform application, since they give you the flexibility to create software for multiple devices from one codebase.</p>
+        <p>There are many options in the market to choose from, and these are only 3 of them. They all offer their strengths and weakenesses, and each one of them will be the best option depending on our specific needs as a company.</p>
+        <p>If our team is already familiar with web technologies, then Ionic or React Native could be the best options for us. If our goal is to reach more than just the mobile platforms and we can spend the time and money to get the technical knowledge required, we could opt for Flutter as the best option.</p>
+        <p>With this information, and with us clearly setting our goals for our product, we can make the right decision for our development platform</p>
+
+    </section>
+
+    <div class="mt-20"></div>
 
     <div>
 
