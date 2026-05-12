@@ -3,7 +3,6 @@ const assetsToCache = [
 '/cis-128-shorttask/',
 './index.html',
 './index.css',
-'./script.js',
 './public/',
 './public/con-icon.svg',
 './public/pro-icon.svg',
