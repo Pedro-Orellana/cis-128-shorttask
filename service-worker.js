@@ -1,14 +1,13 @@
 const cacheName = 'shorttask-cache-1'
 const assetsToCache = [
 '/cis-128-shorttask/',
-'./index.html',
-'./index.css',
-'./public/',
-'./public/con-icon.svg',
-'./public/pro-icon.svg',
-'./public/flutter-logo.png',
-'./public/ionic-logo.png',
-'./public/react-native-logo.png',
+'/cis-128-shorttask/index.html',
+'/cis-128-shorttask/index.css',
+'/cis-128-shorttask/public/con-icon.svg',
+'/cis-128-shorttask/public/pro-icon.svg',
+'/cis-128-shorttask/public/flutter-logo.png',
+'/cis-128-shorttask/public/ionic-logo.png',
+'/cis-128-shorttask/public/react-native-logo.png',
 
 
 
