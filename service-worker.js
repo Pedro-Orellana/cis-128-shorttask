@@ -1,12 +1,16 @@
-const cacheName = 'pwa-cache-v1'
+const cacheName = 'shorttask-cache-1'
 const assetsToCache = [
-'/cis-128-homework-4/',
+'/cis-128-shorttask/',
 './index.html',
-'./style.css',
+'./index.css',
 './script.js',
-'./lightblue.jpg',
-'./lightgold.jpg',
-'./manifest.json',
+'./public/',
+'./public/con-icon.svg',
+'./public/pro-icon.svg',
+'./public/flutter-logo.png',
+'./public/ionic-logo.png',
+'./public/react-native-logo.png',
+
 
 
 

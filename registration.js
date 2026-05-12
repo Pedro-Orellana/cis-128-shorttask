@@ -1,6 +1,6 @@
       if ('serviceWorker' in navigator) {
             //CHANGE ADDRESS OF THIS FILE
-            navigator.serviceWorker.register('/cis-128-homework-4/service-worker.js')
+            navigator.serviceWorker.register('/cis-128-shorttask/service-worker.js')
                 .then(registration => {
                     console.log('Service worker registered!');
                 })
